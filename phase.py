@@ -31,6 +31,7 @@ print ((data_Image))
 stxm = Image.fromarray(np.angle(data_Image[0]))
 
 #x=np.angle(data_Image[0])
+x = np.absolute(data_Image[0])
 #x=np.unwrap(x)
 #x=list(np.array(x,dtype=np.uint32))
 #print (np.shape(x))
